@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "certificates",
+  "info": {
+    "singularName": "certificate",
+    "pluralName": "certificates",
+    "displayName": "Certificates",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "description": {
+      "type": "blocks"
+    },
+    "media": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
+      "allowedTypes": [
+        "images"
+      ]
+    }
+  }
+}

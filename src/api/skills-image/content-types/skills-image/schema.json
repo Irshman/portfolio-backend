@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "skills_images",
+  "info": {
+    "singularName": "skills-image",
+    "pluralName": "skills-images",
+    "displayName": "SkillsImage"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "image": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos",
+        "audios"
+      ],
+      "type": "media",
+      "multiple": false
+    }
+  }
+}
